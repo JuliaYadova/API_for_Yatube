@@ -15,11 +15,11 @@ source venv/Scripts/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
-Выполнить миграции:
+- Выполнить миграции:
 ```
 python manage.py migrate
 ```
-Запустить проект:
+- Запустить проект:
 ```
 python manage.py runserver
 ```
